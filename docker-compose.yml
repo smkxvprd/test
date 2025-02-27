@@ -1,5 +1,7 @@
 services:
   web-server:
-    image: httpd
+    image: nginx
+    volumes:
+    - ./:/usr/share/nginx/html
     ports:
     - '80:80'
