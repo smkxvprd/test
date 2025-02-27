@@ -1,5 +1,5 @@
 services:
   web-server:
-    image: nginx
+    image: httpd
     ports:
     - '80:80'
